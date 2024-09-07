@@ -1,0 +1,49 @@
+body {
+  font-family: 'Lato', 'Roboto Mono', sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+code {
+  font-family: 'Roboto Mono', monospace;
+  color: $success;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+// 空心樣式
+.icon-unfilled {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.w-27 {
+  width: 27%;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
